@@ -17,7 +17,7 @@ E) JPA & Hibernate
 
 
 # Setup and Installation
--Create Maven Project with Spring Initializr -
+- Create Maven Project with Spring Initializr -
 1. Go to Spring Initializr.
 2. Fill in the project metadata (such as Group, Artifact, and Name).
 3. Select Maven Project as the project type.
