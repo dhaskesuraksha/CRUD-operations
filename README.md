@@ -18,32 +18,41 @@ Technologies Used
    GET /api/categories?page={pageNumber}
 
 2. Create a new category
+   
    POST /api/categories
 
 3. Get category by ID
+   
    GET /api/categories/{id}
 
-4. Update category by ID
+4. Update category by
+   
    PUT /api/categories/{id}
 
 5. Delete category by ID
+   
    DELETE /api/categories/{id}
 
 # Product Endpoints
 1. GET all products
+   
    GET /api/products?page={pageNumber}
 
    
 2. Create a new product
+   
    POST /api/products
    
 3. Get product by ID
+   
    GET /api/products/{id}
 
-4. Update product by ID  
+4. Update product by ID
+   
    PUT /api/products/{id}
 
 5. Delete product by ID
+    
    DELETE /api/products/{id}
 
   # One-to-Many Relationship
