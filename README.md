@@ -5,12 +5,15 @@ CRUD operations Using SpringBoot, MySQL
 This project is a Spring Boot application that implements CRUD operations for managing categories and products. It includes features such as server-side pagination, one-to-many relationship between categories and products, and populating product details with respective category information.
 
 Technologies Used
--Java
--Spring Boot
--Spring Data JPA
--Hibernate
--PostgreSQL (RDBMS)
--Maven
+A) Use Spring boot
+
+B) Use Rest controller
+
+C) Need DB configuration (Use RDB instead of in-memory)
+
+D) Use annotation based configuration (Not XML).
+
+E) JPA & Hibernate
 
 # API Endpoints
 # Category Endpoints
