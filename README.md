@@ -26,14 +26,17 @@ E) JPA & Hibernate
 Spring Web
 Spring Data JPA
 MySQL Driver
-6. Click "Generate" to download the project ZIP file.
+7. Click "Generate" to download the project ZIP file.
+   
 2. Extract and Import the Project
 1. Extract the downloaded ZIP file to your desired location.
-2. Import the project into your preferred IDE (e.g., IntelliJ IDEA, Eclipse).
+2.  Import the project into your preferred IDE (e.g., IntelliJ IDEA, Eclipse).
 3. Set up the database configuration in application.properties. Replace the placeholders with your MySQL database credentials:
   
 spring.datasource.url=jdbc:mysql://localhost:3306/db_name
+
 spring.datasource.username=db_username
+
 spring.datasource.password=db_password
 
 
