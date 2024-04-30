@@ -15,6 +15,7 @@ Technologies Used
 # API Endpoints
 # Category Endpoints
 1. GET all categories
+   
    GET /api/categories?page={pageNumber}
 
 2. Create a new category
