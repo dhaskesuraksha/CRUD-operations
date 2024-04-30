@@ -15,6 +15,28 @@ D) Use annotation based configuration (Not XML).
 
 E) JPA & Hibernate
 
+
+# Setup and Installation
+1.Create Maven Project with Spring Initializr
+1. Go to Spring Initializr.
+2. Fill in the project metadata (such as Group, Artifact, and Name).
+3. Select Maven Project as the project type.
+4. Choose your preferred version of Spring Boot.
+5. Add dependencies:
+Spring Web
+Spring Data JPA
+MySQL Driver
+6. Click "Generate" to download the project ZIP file.
+2. Extract and Import the Project
+1. Extract the downloaded ZIP file to your desired location.
+2. Import the project into your preferred IDE (e.g., IntelliJ IDEA, Eclipse).
+3. Set up the database configuration in application.properties. Replace the placeholders with your MySQL database credentials:
+  
+spring.datasource.url=jdbc:mysql://localhost:3306/db_name
+spring.datasource.username=db_username
+spring.datasource.password=db_password
+
+
 # API Endpoints
 # Category Endpoints
 1. GET all categories
